@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamersTreasures.com</title>
+    <style>
+        body {
+            background-color: rgb(100, 72, 136);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #artext {
+            background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+            background-clip: text;
+            display: inline;
+            color: transparent;
+            animation: animated 20s linear infinite;
+        }
+        @keyframes animated {
+            to {background-position-x: 1000px;}
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {    
+            background-color: #2a126b;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1700e2;
+        }
+
+        .nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .nav a:hover {
+            background-color: #d82f05;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2a126b;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="artext">GamersTreasures.com</h1>
+        </header>
+
+        <nav class="nav">
+            <a href="#consoles">Consoles</a>
+            <a href="#acessorios">Acessórios</a>
+            <a href="#perifericos">Periféricos</a>
+            <a href="#promocoes">Promoções</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <main class="main-content">
+            <section id="consoles">
+                <h2>Consoles</h2>
+                <!-- Conteúdo sobre consoles -->
+            </section>
+            <section id="acessorios">
+                <h2>Acessórios</h2>
+                <!-- Conteúdo sobre acessórios -->
+            </section>
+            <section id="perifericos">
+                <h2>Periféricos</h2>
+                <!-- Conteúdo sobre periféricos -->
+            </section>
+            <section id="promocoes">
+                <h2>Promoções</h2>
+                <!-- Conteúdo sobre promoções -->
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <!-- Conteúdo sobre contato -->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 GamersTreasures.com Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
