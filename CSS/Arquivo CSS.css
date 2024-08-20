@@ -21,10 +21,22 @@ body {
     background-color: #170569;
     border: solid black;
     border-radius: 10px;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 150px;
 }
+
+/*.cabeçalho {
+    background-image: url();
+    background-color: #170569;
+    border: solid black;
+    border-radius: 10px;
+    display: grid;
+    width: 100%;
+    height: 150px;
+}*/
 
 .menuprincipal{/*tabela do menu principal*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
